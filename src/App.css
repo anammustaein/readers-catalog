@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 10vh;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer {
+    width: 100%;
+    height: 5vh;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-list {
+    min-height: 85vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    text-align: center;
+}
+
+.book-details {
+    min-height: 85vh;
+    width: 100%;
+}
+
+.favourites {
+    min-height: 85vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    text-align: center;
+}
+
+.book-img {
+    max-width: 250px;
+    height: 300px;
+    transition: all 0.3s ease;
+}
+
+.book-img:hover{
+    transform: scale(1.1);
+}
+
+.book-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.book-img-enlarged {
+    min-width: 260px;
+}
+
+.book-title-author {
+    padding: 10px;
+}
+
+.book-author {
+    color: grey;
+}
+
+.book-details {
+    padding: 30px;
+}
+
+.book-details-img-container {
+    padding: 20px 0;
+}
+
+button {
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    max-width: 190px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #6495ED;
+}
+
+.button-remove {
+    background-color: grey;
+}
+
+.button-remove:hover {
+    background-color: crimson;
+}
+
+.button-container {
+    padding:10px 0;
+}
+
+.link {
+    font-size: 14pt;
+    color: white;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: grey;
+}
+
+.link:hover {
+    color: #6495ED;
+    cursor: pointer;
+}
+
+.input-field {
+    font-size: 15pt;
+    text-align: center;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    margin: 10px 0;
+}
+
+.search-form {
+    text-align: center;
+}
+
+.search-button {
+    outline: 0;
+    border: none;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.search-result-title {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.favourites-result-title {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
